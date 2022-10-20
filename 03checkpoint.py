@@ -1,0 +1,17 @@
+print()
+age = input('What is your age? ')
+age_num = int(age)
+num_add_one = age_num + 1
+print("You will be "+ str(num_add_one) +" by this time next year.")
+print()
+cartons = input("How many cartons of eggs do you have? ")
+num_cartons = int(cartons)
+times12 = num_cartons * 12
+print("You have a total of " + str(times12) + " eggs.")
+print()
+cookies = input("How many cookies do you have? ")
+people = input("How many people are there? ")
+num_cookies = float(cookies)
+num_people = float(people)
+print("Each person may have " + str(num_cookies / num_people) + " cookies each.")
+print()

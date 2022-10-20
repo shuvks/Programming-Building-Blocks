@@ -1,0 +1,6 @@
+print('Hello! My name is Austin.')
+name = input('What is your name?')
+print('It is a pleasure to meet you, ' + name + '!')
+print()
+color = input('What is your favorite color, '+ name + '?')
+print('' + color + ' is a great color!')
